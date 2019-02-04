@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Anomaly Detection</title>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="js/d3-tip.js"></script>
+<script src="chart.js"></script>
+<script src="jquery.min.js"></script>
+
+<body background="img/background.png";>
+  <div>
+    <h3 align='center'><b><u> Outlier Detection with one-class SVM in Tweets based on the Retweets, Followers and the Likes a particluar cluster of tweets received </b></u></h3>
+    <br>
+    <hr/>
+  </div>
+
+  <hr/>
+  <div>
+    <img height='300' width='300' align='center' src='img/outlierimage1.png'/>
+    <img height='300' width='500' align='center' src='img/outlierimage2.png'/>
+
+
+  </div>
+  <br>
+  <hr/>
+  <div align='center'>
+
+    <h3>
+      <i>
+        For outlier detection, we considered Retweet count, Number of Followers and the Likes a particular tweet has received and trained our model by taking 80% as the train data and the remaining as test data. The accuracy, precision, Recall and F1 score were decent and acceptable. We fed the relevant features into a Data-Frame and normlized the data using numpy package. We took into account and assumed that an ID of tweet that does not have more than 50 followers is considered to be an outlier. We labelled a target datafram based on the above assumption and we split the data accordigly using model_selection from skikit-learn package. Using svm one-class we trained our model using rbf kernel. The resultant metrics of recall, precision, f1 score and accuracy are depicted above. 
+
+      </i>
+
+    </h3>
+    <hr/>
+
+  </div>
+
+
+  <div align='center'>
+
+    <h3> <u><b> One-Class SVM debrief</b></u>
+      <p>
+        The cluster of data points in the figure above depicted in orange are considered to be inliers and the points outside the decision bundary are considered to be outliers.
+        It can be observed that ony a few points lie on the decision boundary but they are considered as outliers because the range has been set to ignore such data points. Precision, F1 score and Recall are dependent on True and False positives. They relate to the ratio of correctly predicted observations to the total observations. 
+
+      </p></h3>
+
+
+
+
+  </div>
+</body>
+
+</html>
+
+

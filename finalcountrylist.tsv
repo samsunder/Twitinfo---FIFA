@@ -1,0 +1,92 @@
+﻿typ	name	population
+NEU	Australia	15
+NEU	Bahrai	8
+NEU	Bangladesh	5
+NEU	Botswana	5
+NEU	Bulgaria	30
+POS	Canada	15
+NEU	Chile	6
+NEU	China	14
+NEU	Colombia	10
+NEG	Costa Rica	3
+POS	Egypt	15
+POS	France	90
+NEU	Germany	17
+POS	Ghana	15
+NEU	Greece	19
+NEU	Guatemala	13
+POS	Honduras	4
+NEU	India	93
+NEU	Indonesia	23
+POS	Ireland	12
+POS	Italy	29
+NEU	Jamaica	11
+POS	Japan	20
+NEG	Jordan	22
+NEG	Kenya	27
+NEG	Lebanon	4
+NEG	Macedonia	1
+NEU	Malawi	1
+POS	Malaysia	8
+NEU	Morocco	9
+NEU	Nepal	12
+NEG	Nigeria	63
+NEG	Pakistan	9
+NEG	Rwanda	4
+POS	Saudi Arabia	5
+POS	Singapore	7
+POS	South Africa	30
+NEU	South Sudan	13
+POS	Spain	12
+NEU	Sri Lanka	5
+POS	Tanzania	5
+NEU	Thailand	15
+NEG	Uganda	7
+NEU	United Kingdom	16
+NEU	United States	16
+NEU	USA	13
+NEG	Russia	29
+NEG	Argentina	11
+POS	Greenland	20
+NEG	Brazil	22
+NEG	Mexico	27
+NEU	Kazakhstan	5
+POS	Chad	5
+NEU	Algeria	15
+NEG	Angola	7
+NEU	Swedan	16
+NEU	Iran	16
+NEU	Turkey	13
+NEU	Namibia	29
+NEU	Mali	11
+POS	Mauritania	20
+NEG	Libya	22
+NEG	Sudan	27
+POS	Mongolia	5
+NEU	Afghanistan	15
+NEG	Turkmenistan	7
+NEU	Uzbekistan	16
+NEU	Ukraine	16
+NEU	Poland	13
+POS	Belarus	49
+NEU	Romania	31
+POS	Norway	40
+POS	Sweden	52
+NEU	Peru	27
+NEG	Niger	63
+POS	Finland	35
+POS	Democratic Republic of the Congo	18
+NEU	Zambia	5
+NEU	Zimbabwe	5
+NEU	Madagascar	30
+POS	Myanmar	15
+NEU	Turkmenistan	6
+NEU	Bolivia	14
+POS	United Republic of Tanzania	35
+NEG	Ethiopia	18
+NEG	Mozambique	5
+NEU	Venezuela	5
+NEG	New Zealand	30
+POS	Cameroon	15
+NEU	Iceland	6
+NEU	Austria	14
